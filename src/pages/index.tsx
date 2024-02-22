@@ -18,7 +18,7 @@ export default function Home() {
     }
     
     requestAnimationFrame(raf)
-  },{})
+  },[])
   return (
     <main className="min-h-screen">
      <Hero/>
