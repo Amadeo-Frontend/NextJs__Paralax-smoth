@@ -1,10 +1,12 @@
 import React from 'react'
 import HighLightItem from './HighLightItem'
+import NavBar from './NavBar'
 
 const Hero = () => {
   return (
     <section className='relative h-screen flex flex-col justify-center'>
       {/* Navbar*/}
+      <NavBar/>
       {/* Background Video*/}
       <div className='absolute inset-0 -z-10'>
         <div className='absolute inset-0 bg-black/30 z-10'/>
@@ -21,8 +23,11 @@ const Hero = () => {
         </div>
         <div className='flex justify-between w-3/5 max-w-[900px]'>
             <HighLightItem title='Project Range' content='Over 440 mi'/>
+            <div className='h-full w-[2px] bg-white'/>
             <HighLightItem title='Peak Power' content='Over 800hp'/>
+            <div className='h-full w-[2px] bg-white'/>
             <HighLightItem title='Seating' content='Up to 7'/>
+            <div className='h-full w-[2px] bg-white'/>
             <HighLightItem title='0-60 mph' content='Under 3.5secs'/>
         </div>
       </div>
