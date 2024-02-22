@@ -40,17 +40,17 @@ const NavBar = () => {
       </div>
       {/* Menu de navegação para dispositivos móveis - mostrado quando o menu está aberto */}
       {menuOpen && (
-        <div className='md:hidden flex flex-col items-center justify-center absolute inset-x-0 top-16 bg-gray-700 text-white py-4 px-6 backdrop-filter backdrop-blur-lg bg-opacity-60 rounded-md'>
-          <Link href='#' className='my-2 transition duration-300 ease-in-out transform hover:scale-110 hover:text-white/70'>
+        <div className='md:hidden flex flex-col items-center justify-center absolute inset-x-0 top-16 bg-gray-600 text-white py-4 px-6 backdrop-filter backdrop-blur-lg bg-opacity-60 rounded-md'>
+          <Link href='#' className='my-2 transition duration-300 ease transform hover:scale-110 hover:text-white/70'>
             Air
           </Link>
-          <Link href='#' className='my-2 transition duration-300 ease-in-out transform hover:scale-110 hover:text-white/70'>
+          <Link href='#' className='my-2 transition duration-300 ease transform hover:scale-110 hover:text-white/70'>
             Gravity
           </Link>
-          <Link href='#' className='my-2 transition duration-300 ease-in-out transform hover:scale-110 hover:text-white/70'>
+          <Link href='#' className='my-2 transition duration-300 ease transform hover:scale-110 hover:text-white/70'>
             Experience
           </Link>
-          <Link href='#' className='my-2 transition duration-300 ease-in-out transform hover:scale-110 hover:text-white/70'>
+          <Link href='#' className='my-2 transition duration-300 ease transform hover:scale-110 hover:text-white/70'>
             Shop
           </Link>
         </div>

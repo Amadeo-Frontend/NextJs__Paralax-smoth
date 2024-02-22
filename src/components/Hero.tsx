@@ -15,13 +15,13 @@ const Hero = () => {
 </video>
       </div>
       {/* Text Content*/}
-      <div className='flex flex-col items-center gap-24'>
-        <div className='flex flex-col items-center gap-8'>
-            <h1 className='text-6xl max-w-[15ch] text-center font-serif'>Experience the draw of Gravity.</h1>
+      <div className='flex flex-col items-center gap-8 md:gap-24'>
+        <div className='flex flex-col items-center gap-4 md:gap-8'>
+            <h1 className='text-4xl md:text-6xl max-w-[15ch] text-center font-serif'>Experience the draw of Gravity.</h1>
             <p>Redefining the future of SUVs.</p>
-            <button className='bg-white text-black uppercase px-6 py-2 rounded-md hover:bg-white/70'>Stay informed</button>
+            <button className='bg-white text-black uppercase px-4 md:px-6 py-2 rounded-md hover:bg-white/70'>Stay informed</button>
         </div>
-        <div className='flex justify-between w-3/5 max-w-[900px]'>
+        <div className='flex flex-col max-w-[400px] md:flex-row items-center md:items-start justify-center w-full md:w-3/5 md:max-w-[900px] gap-2 md:gap-6'>
             <HighLightItem title='Project Range' content='Over 440 mi'/>
             <div className='h-full w-[2px] bg-white'/>
             <HighLightItem title='Peak Power' content='Over 800hp'/>
