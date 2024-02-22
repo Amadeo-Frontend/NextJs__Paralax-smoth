@@ -24,19 +24,19 @@ export default function Home() {
      <Hero/>
      <Section image={BgOverview} tag='Overview'
      title='Elevate adventure in the luxury electric SUV of tomorrow.'
-     description="More space. Moreutility - All luxury. Feel the freedom."/>
+     description="More space. More utility - All luxury. Feel the freedom."/>
      <Section image={BgInterior} tag='Interior'
      title='Interior space. Superior taste'
-     description="More space. Moreutility - All luxury. Feel the freedom."/>
+     description="Whether with family or flying solo, comfortably fit up to 7 with a roomy 3rd row, or told the seats to reveal more space for what matters most."/>
      <Section image={BgCharging} tag='Charging'
      title='Long-distances in lightning speed.'
-     description="More space. Moreutility - All luxury. Feel the freedom."/>
+     description="Go at the speed of Gravity with ultra quick charging at over 300kW. Explore more beaches and beyond with less waiting and more convenient control. "/>
      <Section image={BgConnectivity} tag='Connectivity'
      title='Feel the world at your fingertips.'
-     description="More space. Moreutility - All luxury. Feel the freedom."/>
+     description="A single tap transforms your cabin into a personal multi-sensory wellness space curated content where each experience is custom designed with an elegant combination of visuals, lighting, audio, temperature, and massage."/>
      <Section image={BgSafety} tag='Safety'
      title='Designed for peace of mind'
-     description="More space. Moreutility - All luxury. Feel the freedom."/>
+     description="Welcome to DremDrive, your elegantly advanced driver assistance system. That means sensors and better radar. Day or night-rain or shine-rest assured all angles are covered."/>
     </main>
   );
 }
